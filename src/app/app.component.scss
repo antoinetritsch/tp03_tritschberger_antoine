@@ -1,0 +1,14 @@
+:host {
+  color: rgb(218, 178, 178);
+  background-color: rgb(146, 48, 48);
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  flex: 1;
+}

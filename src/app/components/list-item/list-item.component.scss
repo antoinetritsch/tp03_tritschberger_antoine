@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+.list-container {
+    width: 30%;
+    background: rgba(225, 225, 225, 0.5);
+    padding: 0.7rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 10px;   
+}
+h3 {
+  text-align: center;
+}

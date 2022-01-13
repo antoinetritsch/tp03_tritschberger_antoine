@@ -1,0 +1,11 @@
+<div class="search-container">
+  <form [formGroup]="searchbarForm">
+      <input
+        type="text"
+        id="searchbar"
+        formControlName="research"
+        (input)="handleResearch()"
+        placeholder="Rechercher une couleur"
+      />
+  </form>
+</div>
